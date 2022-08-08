@@ -1,0 +1,353 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"38 C:\Users\loowi\MPLABXProjects\TestePZEM004T_PIC.X/lcd_4vias.h
+[v _IniciaLCD IniciaLCD `(v  1 e 1 0 ]
+"56
+[v _ComandoLCD ComandoLCD `(v  1 e 1 0 ]
+"80
+[v _EscreveLCD EscreveLCD `(v  1 e 1 0 ]
+"104
+[v _StringLCD StringLCD `(v  1 e 1 0 ]
+"117
+[v _NumeroLCD NumeroLCD `(v  1 e 1 0 ]
+"153
+[v _PosicionaLCD PosicionaLCD `(v  1 e 1 0 ]
+"173
+[v _LimpaLCD LimpaLCD `(v  1 e 1 0 ]
+"23 C:\Users\loowi\MPLABXProjects\TestePZEM004T_PIC.X/serial.h
+[v _Inicializa_Serial Inicializa_Serial `(v  1 e 1 0 ]
+"59
+[v _Escreve_Serial Escreve_Serial `(v  1 e 1 0 ]
+"70
+[v _Verifica_Serial Verifica_Serial `(uc  1 e 1 0 ]
+"79
+[v _Ler_Serial Ler_Serial `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"91 C:\Users\loowi\MPLABXProjects\TestePZEM004T_PIC.X\main.c
+[v _CRCcalc CRCcalc `(v  1 e 1 0 ]
+"117
+[v _leituraPZEM leituraPZEM `(v  1 e 1 0 ]
+"145
+[v _main main `(v  1 e 1 0 ]
+"649 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4550.h
+[v _UCON UCON `VEuc  1 e 1 @3949 ]
+[s S246 . 1 `uc 1 PPB 1 0 :2:0 
+`uc 1 FSEN 1 0 :1:2 
+`uc 1 UTRDIS 1 0 :1:3 
+`uc 1 UPUEN 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 UOEMON 1 0 :1:6 
+`uc 1 UTEYE 1 0 :1:7 
+]
+"788
+[s S254 . 1 `uc 1 PPB0 1 0 :1:0 
+`uc 1 PPB1 1 0 :1:1 
+]
+[s S257 . 1 `uc 1 UPP0 1 0 :1:0 
+`uc 1 UPP1 1 0 :1:1 
+]
+[u S260 . 1 `S246 1 . 1 0 `S254 1 . 1 0 `S257 1 . 1 0 ]
+[v _UCFGbits UCFGbits `VES260  1 e 1 @3951 ]
+"2454
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S25 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2484
+[s S34 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S42 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S45 . 1 `S25 1 . 1 0 `S34 1 . 1 0 `S42 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES45  1 e 1 @3969 ]
+"3626
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S205 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3658
+[u S223 . 1 `S205 1 . 1 0 `S25 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES223  1 e 1 @3987 ]
+[s S81 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3876
+[s S88 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S95 . 1 `S81 1 . 1 0 `S88 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES95  1 e 1 @3988 ]
+[s S170 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 SPPIF 1 0 :1:7 
+]
+"4493
+[s S179 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S185 . 1 `S170 1 . 1 0 `S179 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES185  1 e 1 @3998 ]
+"4937
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"5147
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+[s S118 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5186
+[s S127 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S136 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S139 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S141 . 1 `S118 1 . 1 0 `S127 1 . 1 0 `S136 1 . 1 0 `S139 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES141  1 e 1 @4012 ]
+"5403
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5415
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"5427
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"6063
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @4024 ]
+"65 C:\Users\loowi\MPLABXProjects\TestePZEM004T_PIC.X\main.c
+[v _finalCRC finalCRC `[2]uc  1 e 2 0 ]
+"66
+[v _recebido recebido `[25]uc  1 e 25 0 ]
+"145
+[v _main main `(v  1 e 1 0 ]
+{
+"150
+[v main@recebidoSemCRC recebidoSemCRC `[23]uc  1 a 23 25 ]
+"154
+[v main@energia energia `ul  1 a 4 56 ]
+"153
+[v main@potencia potencia `ul  1 a 4 52 ]
+"152
+[v main@corrente corrente `ul  1 a 4 48 ]
+"157
+[v main@alarme alarme `ui  1 a 2 66 ]
+"156
+[v main@fp fp `ui  1 a 2 64 ]
+"155
+[v main@frequencia frequencia `ui  1 a 2 62 ]
+"151
+[v main@tensao tensao `ui  1 a 2 60 ]
+"149
+[v main@i i `uc  1 a 1 68 ]
+"263
+} 0
+"117
+[v _leituraPZEM leituraPZEM `(v  1 e 1 0 ]
+{
+"119
+[v leituraPZEM@mensagem mensagem `[6]uc  1 a 6 12 ]
+"118
+[v leituraPZEM@i i `uc  1 a 1 18 ]
+[v leituraPZEM@F3248 F3248 `[6]uc  1 s 6 F3248 ]
+"138
+} 0
+"70 C:\Users\loowi\MPLABXProjects\TestePZEM004T_PIC.X/serial.h
+[v _Verifica_Serial Verifica_Serial `(uc  1 e 1 0 ]
+{
+"72
+} 0
+"79
+[v _Ler_Serial Ler_Serial `(uc  1 e 1 0 ]
+{
+"81
+} 0
+"59
+[v _Escreve_Serial Escreve_Serial `(v  1 e 1 0 ]
+{
+[v Escreve_Serial@Caractere Caractere `uc  1 a 1 wreg ]
+[v Escreve_Serial@Caractere Caractere `uc  1 a 1 wreg ]
+[v Escreve_Serial@Caractere Caractere `uc  1 a 1 0 ]
+"62
+} 0
+"91 C:\Users\loowi\MPLABXProjects\TestePZEM004T_PIC.X\main.c
+[v _CRCcalc CRCcalc `(v  1 e 1 0 ]
+{
+"93
+[v CRCcalc@checksum checksum `l  1 a 4 8 ]
+"92
+[v CRCcalc@j j `uc  1 a 1 7 ]
+[v CRCcalc@i i `uc  1 a 1 6 ]
+"91
+[v CRCcalc@toCalc toCalc `*.39uc  1 p 2 0 ]
+"109
+} 0
+"104 C:\Users\loowi\MPLABXProjects\TestePZEM004T_PIC.X/lcd_4vias.h
+[v _StringLCD StringLCD `(v  1 e 1 0 ]
+{
+[v StringLCD@string string `*.25Cuc  1 p 2 3 ]
+"111
+} 0
+"153
+[v _PosicionaLCD PosicionaLCD `(v  1 e 1 0 ]
+{
+[v PosicionaLCD@linha linha `uc  1 a 1 wreg ]
+"155
+[v PosicionaLCD@posicao posicao `uc  1 a 1 7 ]
+"153
+[v PosicionaLCD@linha linha `uc  1 a 1 wreg ]
+[v PosicionaLCD@coluna coluna `uc  1 p 1 3 ]
+"156
+[v PosicionaLCD@linha linha `uc  1 a 1 6 ]
+"167
+} 0
+"117
+[v _NumeroLCD NumeroLCD `(v  1 e 1 0 ]
+{
+"119
+[v NumeroLCD@i i `uc  1 a 1 14 ]
+"117
+[v NumeroLCD@numero numero `ui  1 p 2 12 ]
+"147
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 7 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 9 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"80 C:\Users\loowi\MPLABXProjects\TestePZEM004T_PIC.X/lcd_4vias.h
+[v _EscreveLCD EscreveLCD `(v  1 e 1 0 ]
+{
+[v EscreveLCD@dado dado `uc  1 a 1 wreg ]
+"82
+[v EscreveLCD@i i `uc  1 a 1 2 ]
+"80
+[v EscreveLCD@dado dado `uc  1 a 1 wreg ]
+"84
+[v EscreveLCD@dado dado `uc  1 a 1 1 ]
+"98
+} 0
+"173
+[v _LimpaLCD LimpaLCD `(v  1 e 1 0 ]
+{
+"176
+} 0
+"23 C:\Users\loowi\MPLABXProjects\TestePZEM004T_PIC.X/serial.h
+[v _Inicializa_Serial Inicializa_Serial `(v  1 e 1 0 ]
+{
+"52
+} 0
+"38 C:\Users\loowi\MPLABXProjects\TestePZEM004T_PIC.X/lcd_4vias.h
+[v _IniciaLCD IniciaLCD `(v  1 e 1 0 ]
+{
+"41
+[v IniciaLCD@inicio inicio `[6]uc  1 a 6 4 ]
+"40
+[v IniciaLCD@i i `uc  1 a 1 10 ]
+[v IniciaLCD@F3216 F3216 `[6]uc  1 s 6 F3216 ]
+"51
+} 0
+"56
+[v _ComandoLCD ComandoLCD `(v  1 e 1 0 ]
+{
+[v ComandoLCD@dado dado `uc  1 a 1 wreg ]
+"58
+[v ComandoLCD@i i `uc  1 a 1 1 ]
+"56
+[v ComandoLCD@dado dado `uc  1 a 1 wreg ]
+"60
+[v ComandoLCD@dado dado `uc  1 a 1 2 ]
+"74
+} 0
