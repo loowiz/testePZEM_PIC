@@ -189,7 +189,7 @@ void main(void){
 	while(1){
 		if(Botao_01 == 1){
             tensao = 0;
-            corrente = 0;
+            corrente = 0; //
             potencia = 0;
             energia = 0;
             frequencia = 0;
